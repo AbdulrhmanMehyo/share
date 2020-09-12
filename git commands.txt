@@ -1,0 +1,22 @@
+git add . // Adding your changes
+git commit -m "message" // Committing your changes with a message
+git push // Updating your branches in Github
+git pull // Updating your branches locally from Github
+git checkout or git switch // Switching branches
+git branch your-branch // Creating a branch
+git checkout -b your-branch // Creating a branch and switching to the same branch
+git clone your-url // Cloning your git from Github
+git branch -a // Listing all branches
+git -a // For help
+git status // Gives a current status
+git log // Lists all logs
+git merge your-branch // Merges a branch with the current branch
+
+//Deleting
+/REMOTELY: git push -delete origin your-branch
+/LOCALLY: git branch -D your-branch 
+//REMOVE ALL HISTORY: git rm -rf --cached .
+
+//Configuring Name and Email
+git config --global user.name 'your-username'
+git config --global user.email 'your-email'
