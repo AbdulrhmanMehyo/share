@@ -1,0 +1,45 @@
+Installing: npm install express
+
+Fast: npm i express dotenv mongoose colors morgan
+npm i -D nodemon concurrently
+
+npm i bcryptjs
+npm i jsonwebtoken
+
+npm install express socket.io moment
+npm i express mongoose connect-mongo express-session express-handlebars dotenv method-override moment morgan passport passport-google-oauth20 color
+npm i -D nodemon cross-env
+
+Nodemon: npm i -D nodemon
+"scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+}
+npm run dev
+
+Mongoose: npm install mongoose
+Connection_String: mongodb+srv://<username>:<password>@mk-1ad9p.mongodb.net/test?retryWrites=true&w=majority
+
+Hapi/Joi: npm install @hapi/joi
+
+Passwords: npm install bcryptjs
+
+JWT: npm install jsonwebtoken
+
+env: npm install dotenv
+const dotenv = require("dotenv");
+dotenv.config();
+
+cors: npm install cors
+const cors = require("cors");
+app.use(cors());
+
+Body-Parsers: npm install body-parser
+
+Time: npm i moment
+
+uuid: npm install uuid
+
+Handlebars: npm i express-handlebars
+
+mlab postman atlas

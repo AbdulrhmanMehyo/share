@@ -1,0 +1,11 @@
+Initializing: npm init
+
+Uuid: npm install uuidv4
+
+Nodemon: npm install -D nodemon
+Use this in the package:
+"scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+}
+Then: npm run dev
